@@ -1,0 +1,59 @@
+.container{
+    display: grid;
+    background-color: white;
+    max-height: 4fr;
+    max-width: 1fr;
+    margin: AUTO;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: AUTO AUTO;
+    border: 5px solid black;
+}
+.containerFlexbox1{
+    align-self: stretch;
+    justify-content: center;
+    text-align: center;
+    height: 2fr;
+    background: linear-gradient(to bottom, white 30%, darkslateblue , rgb(43, 235, 235));
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.containerFlexbox2{
+    padding: 40px;
+    align-self: stretch;
+    max-height: 2fr;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#rigthText{
+    color: black;
+    font-size: 10px;
+    text-align: justify;
+
+}
+h4, h2, li {
+    color: white;
+    margin-block-end: 1px; 
+    margin: 5px;
+}
+
+h3{
+    color: white;
+    margin: 2px;
+}
+
+.rigthContainer, h2, a{
+    color: black;
+}
+table, th, td{
+    font-size: 15px;
+    border: 1px solid black;
+}
+hr{
+    margin-top: 3px;
+}
+span{
+    font-weight: bold;
+}
